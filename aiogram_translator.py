@@ -25,6 +25,8 @@ kb = types.ReplyKeyboardMarkup(row_width=1)
 
 ru_en_btn = types.KeyboardButton(text='/translate_EN-RU')
 en_ru_btn = types.KeyboardButton(text='/translate_RU-EN')
+en_essay = types.KeyboardButton(text='/generate_en_essay')
+ru_essay = types.KeyboardButton(text='/generate_ru_essay')
 
 kb.add(ru_en_btn, en_ru_btn)
 
