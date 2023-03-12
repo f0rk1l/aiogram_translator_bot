@@ -25,10 +25,10 @@ kb = types.ReplyKeyboardMarkup(row_width=1)
 
 ru_en_btn = types.KeyboardButton(text='/translate_EN-RU')
 en_ru_btn = types.KeyboardButton(text='/translate_RU-EN')
-en_essay = types.KeyboardButton(text='/generate_en_essay')
-ru_essay = types.KeyboardButton(text='/generate_ru_essay')
+en_essay_btn = types.KeyboardButton(text='/generate_en_essay')
+ru_essay_btn = types.KeyboardButton(text='/generate_ru_essay')
 
-kb.add(ru_en_btn, en_ru_btn)
+kb.add(ru_en_btn, en_ru_btn, en_essay_btn, ru_essay_btn)
 
 start_message = """Hello, dear user, i\'m bot translator, now I can translate text from english to russia
 i\'ve been created by developer with nickname f0rk1l"""
