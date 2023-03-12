@@ -1,1 +1,1 @@
-# aiogram_translator_bot
+This is an aiogram translator bot using chatgpt AI to generate essays. So far, only translations from English into Russian and vice versa are available, but other languages ​​will appear in the future.
